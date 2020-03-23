@@ -1,12 +1,12 @@
 [{
-    
+
    "name": "Thabang Rakgoropo",
    "date": "17 june 1993",
    "gender": "Male",
-    "contact": "0839793565",
-    "location": "Ivory park ext 2",
+    "contact": "083 979 3565 || 079 566 1779",
+    "location": "Ivory park ext 2 Mdirand 1685",
     "email": "rakgoropothabang@gmail.com",
-    "bio":"Accomplished junior frontend developer with 1 year of experience in development of web applications.I understand every stage of the life cycle of software development, including design creation, coding, debugging and maintenance.I have developed applications which use Java script for Angular and Java for Spring boot.My primary ambition is to obtain employment in a position that allows me to develop and expand my knowledge in software development skills set while adding value to the client.",
+    "bio":"I am self taugh web developer with demonstrated experience of working with latest web frameworks to developed qaulity applications",
     "plumblinkDuties":"Picking stocks for various branches and ensuring that all other orders for branches and customers are picked.",
     "plumblinkDuration":"2017 - 2018",
     "plumblink":"Picker @Plumblink",
@@ -17,7 +17,7 @@
     "daDuration":"2019 - 2019",
     "da":"Intern Software Developer @The Digital academy"
 
-    
+
 }
 ]
 
