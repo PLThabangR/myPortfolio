@@ -1,0 +1,38 @@
+
+     <mdb-card>  
+     <div class="card-body">
+           <div class="row" >
+               <div  class="col-md-2 " >
+              <!-- Title -->
+              <i class="fas fa-briefcase fa-3x"></i>
+             </div>
+             <div class="col-md-10 "*ngFor="let user of users"  > 
+              <!-- Text -->
+              <h4 class="card-title"><a>Work experience</a></h4>
+              <p class="card-text">{{user.plumblink}}</p>
+              <p style ="color:#248673">{{user.plumblinkDuration}}</p>
+            <p> {{user.plumblinkDuties}}</p>
+            <hr>
+
+           
+            <p class="card-text">{{user.embizo}}</p>
+            <p style ="color:#248673">{{user.embizoDuration}}</p>
+          <p> {{user.embizoDuties}}</p>
+
+          <hr>
+
+           
+          <p class="card-text">{{user.da}}</p>
+          <p style ="color:#248673">{{user.daDuration}}</p>
+        <p> {{user.daDuties}}</p>
+              <!-- Button -->
+             </div>
+          
+            </div>
+           </div>
+       
+        
+         <!-- <div style="height: 500px"></div> -->
+         </mdb-card>
+  
+           

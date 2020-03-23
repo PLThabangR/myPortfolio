@@ -1,0 +1,31 @@
+<div class="mt-2">
+<mdb-card>  
+        <div class="card-body">
+              <div class="row">
+                  <div  class="col-md-2 " >
+                 <!-- Title -->
+                 <i class="fas fa-phone fa-3x"></i>
+                </div>
+                <div class="col-md-10 " *ngFor="let user of users" > 
+                 <!-- Text -->
+                 <h4 class="card-title"><a>Contact details</a></h4>
+                 <p class="card-text">email</p>
+                 <p class="card-text">{{user.email}}</p>
+                 <p class="card-text">mobile</p>
+                    <p class="card-text">{{user.contact}}</p>
+              
+               <hr>
+                 <!-- Button -->
+                </div>
+             
+               </div>
+              </div>
+          
+           
+            
+            </mdb-card>
+          </div>
+
+         
+
+         

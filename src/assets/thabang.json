@@ -1,0 +1,23 @@
+[{
+    
+   "name": "Thabang Rakgoropo",
+   "date": "17 june 1993",
+   "gender": "Male",
+    "contact": "0839793565",
+    "location": "Ivory park ext 2",
+    "email": "rakgoropothabang@gmail.com",
+    "bio":"Accomplished junior frontend developer with 1 year of experience in development of web applications.I understand every stage of the life cycle of software development, including design creation, coding, debugging and maintenance.I have developed applications which use Java script for Angular and Java for Spring boot.My primary ambition is to obtain employment in a position that allows me to develop and expand my knowledge in software development skills set while adding value to the client.",
+    "plumblinkDuties":"Picking stocks for various branches and ensuring that all other orders for branches and customers are picked.",
+    "plumblinkDuration":"2017 - 2018",
+    "plumblink":"Picker @Plumblink",
+    "embizo":"Intern Android developer @Embizo",
+    "embizoDuties":"Developed a android app using android studio and java .This app allows users to view embizo services for wifi.Contributed to web based application using spring tool suit.Good technical knowledge of  Android SDK , Android Studio, Gradle Google api and Firebase.Good knowledge of Supporting Multiple Android Devices.Used Source code control of GIT to clone and work on android projects",
+    "embizoDuration":"2018 - 2018",
+    "daDuties":"Developed a Cv builder application using the spring framework for the backend and angular 7  for the front end.I used springboot to implement a Rest Api for the Cv application whereby it connects to the MySql database to store user information.The name of the project is the Cv builder which will allow people to create professional cv online quickly.  I use Git and Github for source control of the project working with a team we pull from master branch then push to our own branches before we merge the project.I also have a project on github which is a task planner ,it uses angular and spring boot .",
+    "daDuration":"2019 - 2019",
+    "da":"Intern Software Developer @The Digital academy"
+
+    
+}
+]
+

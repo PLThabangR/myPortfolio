@@ -1,0 +1,65 @@
+
+
+
+  <mdb-card>  
+      <div class="card-body">
+            <div class="row">
+                <div  class="col-md-2 " >
+               <!-- Title -->
+               <i class="fas fa-user fa-3x"></i>
+              </div>
+              <div class="col-md-10 " *ngFor="let user of users" > 
+               <!-- Text -->
+               <h4 class="card-title"><a>Personal detatils</a></h4>
+              
+              
+             
+             <p> {{user.name}}</p>
+             <p> {{user.date}}</p>
+             <p> {{user.gender}}</p>
+             <p> {{user.location}}</p>
+             <hr>
+               <!-- Button -->
+              </div>
+           
+             </div>
+            </div>
+        
+         
+          
+          </mdb-card>
+
+<div class="mt-2">
+  <mdb-card>  
+    <div class="card-body">
+          <div class="row">
+              <div  class="col-md-2 " >
+             <!-- Title -->
+             <i class="fas fa-user fa-3x"></i>
+            </div>
+            <div class="col-md-10 " *ngFor="let user of users" > 
+             <!-- Text -->
+             <h4 class="card-title"><a>Bio</a></h4>
+            
+            
+           <p class="text"> {{user.bio}}</p>
+           <hr>
+             <!-- Button -->
+            </div>
+         
+           </div>
+          </div>
+      
+       
+        
+        </mdb-card>
+</div>
+        
+          
+        
+              
+               
+                
+                
+   
+            
