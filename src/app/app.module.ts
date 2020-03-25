@@ -21,6 +21,7 @@ import { FooterComponent } from '../footer/footer.component';
 import { ProjectsComponent } from '../projects/projects.component';
 import { NavbarComponent } from '../navbar/navbar.component';
 import { SkillComponent } from './skill/skill.component';
+import { BackPicComponent } from './back-pic/back-pic.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { SkillComponent } from './skill/skill.component';
     FooterComponent,
     ProjectsComponent,
     NavbarComponent,
-    SkillComponent
+    SkillComponent,
+    BackPicComponent
   ],
   imports: [
     BrowserModule,

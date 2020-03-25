@@ -8,6 +8,7 @@ import { BioComponent } from '../bio/bio.component';
 
 import { EducationComponent } from '../education/education.component';
 import { SkillComponent } from './skill/skill.component';
+import { BackPicComponent } from './back-pic/back-pic.component';
 
 
 
@@ -18,6 +19,11 @@ const routes: Routes = [
     path: '', redirectTo: ' /bio', pathMatch: 'full'
 
   },
+  {
+    path: 'back',
+    component: BackPicComponent
+  },
+
     {
     path: 'contact',
     component: ContactComponent
