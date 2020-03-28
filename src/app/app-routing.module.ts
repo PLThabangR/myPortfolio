@@ -1,4 +1,5 @@
-import { NgModule } from '@angular/core';
+import { FsManagerComponent } from './fs-manager/fs-manager.component';
+import { NgModule, Component } from '@angular/core';
 
 import { Routes, RouterModule } from '@angular/router';
 import { ContactComponent } from '../contact/contact.component';
@@ -9,6 +10,7 @@ import { BioComponent } from '../bio/bio.component';
 import { EducationComponent } from '../education/education.component';
 import { SkillComponent } from './skill/skill.component';
 import { BackPicComponent } from './back-pic/back-pic.component';
+import { QuickCvComponent } from './quick-cv/quick-cv.component';
 
 
 
@@ -20,9 +22,21 @@ const routes: Routes = [
 
   },
   {
+    path: 'quickCv',
+    component: QuickCvComponent
+  },
+  {
+
+      path: 'react',
+      component: FsManagerComponent
+
+  },
+  {
+
     path: 'back',
     component: BackPicComponent
-  },
+
+},
 
     {
     path: 'contact',

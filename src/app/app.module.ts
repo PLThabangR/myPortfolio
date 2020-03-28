@@ -22,6 +22,8 @@ import { ProjectsComponent } from '../projects/projects.component';
 import { NavbarComponent } from '../navbar/navbar.component';
 import { SkillComponent } from './skill/skill.component';
 import { BackPicComponent } from './back-pic/back-pic.component';
+import { QuickCvComponent } from './quick-cv/quick-cv.component';
+import { FsManagerComponent } from './fs-manager/fs-manager.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +40,9 @@ import { BackPicComponent } from './back-pic/back-pic.component';
     ProjectsComponent,
     NavbarComponent,
     SkillComponent,
-    BackPicComponent
+    BackPicComponent,
+    QuickCvComponent,
+    FsManagerComponent
   ],
   imports: [
     BrowserModule,
